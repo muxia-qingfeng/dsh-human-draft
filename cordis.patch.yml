@@ -1,0 +1,5 @@
+# dsh bundle patch: 把本插件插入 profile 的层栈，
+# 由 index.js 通过原生 filesystem provider 挂载打包的 skills/ 技能树。
+- insert:
+    - id: human-draft
+      name: 'dsh-human-draft'
