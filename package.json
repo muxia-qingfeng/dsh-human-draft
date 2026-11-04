@@ -1,0 +1,29 @@
+{
+  "name": "dsh-human-draft",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness 插件：撰写论文、技术报告、行业研究报告等正式文档，自动套用真实人类写作模板与去 AI 味规范，产出读起来像人写、无机器腔与套话的成稿。",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills/"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "writing",
+    "humanize",
+    "report",
+    "paper",
+    "anti-ai"
+  ],
+  "author": "dsh-human-draft contributors",
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
